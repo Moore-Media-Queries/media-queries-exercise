@@ -1,0 +1,64 @@
+* { margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 500px) {
+    .hidden-on-desktop{
+        display: none;
+
+
+    }
+}
+
+
+
+.alert-info{
+    display: flex;
+    background-color: #CCFFFF;
+    width: 100%;
+    border: 1px solid black;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+body{
+    display: flex;
+    margin: 1em;
+    width: 339px;
+    flex-direction: column;
+
+}
+
+h1{
+   text-align: center;
+
+}
+
+.nav-links{
+
+}
+
+.header-img{
+    width: 339px;
+    height: 224px;
+
+}
+
+#main{
+
+}
+
+.main{
+
+}
+
+.sub-section{
+
+}
+
+#social-media-links{
+
+}
