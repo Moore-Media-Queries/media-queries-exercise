@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 500px) {
     .hidden-on-desktop{
-/*        display: none;*/
+        display: none;
     }
 }
 
@@ -13,20 +13,14 @@
 .alert-info{
     display: flex;
     background-color: #CCFFFF;
-    width: 100%;
     border: 1px solid black;
-    padding: 1em;
+    padding: 1em 0;
     align-items: center;
     justify-content: center;
-    margin:
+    /*margin: .5em;*/
 
 }
 
-/*display: flex;*/
-/*margin: .5em;*/
-/*background: #CCCCCC;*/
-/*width: 100%;*/
-/*justify-content: center;*/
 
 body{
     display: flex;
@@ -43,7 +37,8 @@ h1{
 
 li {
     display: flex;
-    margin: .5em;
+    margin: .5em 0;
+    padding: 1em 0;
     background: #CCCCCC;
     width: 100%;
     justify-content: center;
@@ -59,15 +54,14 @@ li {
 }
 
 .header-img{
-    margin-right: 1em;
-    padding: .5em;
+    margin: 1em 0;
 }
 
 img{
 
 
     width: 339px;
-    height: 224;
+    height: 224px;
 
 }
 
