@@ -1,5 +1,6 @@
 * { margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (min-width: 500px) {
@@ -8,7 +9,11 @@
     }
 }
 
+.alert-info > a{
+    color: black;
+    text-decoration: none;
 
+}
 
 .alert-info{
     display: flex;
@@ -17,7 +22,9 @@
     padding: 1em 0;
     align-items: center;
     justify-content: center;
-    /*margin: .5em;*/
+    /*color: black;*/
+    /*text-decoration: none;*/
+
 
 }
 
@@ -28,10 +35,13 @@ body{
     width: 339px;
     flex-direction: column;
 
+
 }
 
 h1{
    text-align: center;
+    margin-bottom: 1em;
+    margin-top: .5em;
 
 }
 
@@ -65,8 +75,13 @@ img{
 
 }
 
-#main{
+section{
+    margin-bottom: 1em;
 
+}
+
+#main{
+    margin-bottom: 2em;
 }
 
 .main{
@@ -74,7 +89,8 @@ img{
 }
 
 .sub-section{
-
+font-style: italic;
+    margin-bottom: 4em;
 }
 
 #social-media-links{
