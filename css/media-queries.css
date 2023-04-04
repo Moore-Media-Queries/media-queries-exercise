@@ -35,7 +35,7 @@ body {
 }
 
 h1 {
-    text-align: left;
+    text-align: center;
     margin-bottom: .5em;
     /*margin-top: .5em;*/
     font-size: 50px;
@@ -98,7 +98,7 @@ section {
 
     body {
         display: flex;
-        margin: 1%;
+        /*margin: ;*/
         padding: 0;
         width: 890px;
 
@@ -109,7 +109,7 @@ section {
         display: flex;
         jusfify-content: flex-start;
         align-items: flex-start;
-        font-size: 55px;
+        font-size: 60px;
         width: 10%;
         margin: 0;
         padding: 0;
@@ -143,7 +143,7 @@ section {
     }
 
     .header-img {
-        margin: .1em 0;
+        /*margin: .1em 0;*/
     }
 
     img {
@@ -151,7 +151,7 @@ section {
 
         width: 890px;
         height: 385px;
-        padding: 2em;
+        /*padding: 2em;*/
 
     }
 
