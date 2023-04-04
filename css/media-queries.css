@@ -101,7 +101,7 @@ section {
         /*margin: ;*/
         padding: 0;
         width: 890px;
-
+        margin-bottom: 10em;
 
     }
 
@@ -188,9 +188,30 @@ section {
 
 
     footer {
-        margin-top: 20em;
+        display: flex;
+        margin-top: 10em;
+        justify-content: space-between;
+        align-content: flex-start;
+        align-items: flex-start;
+
     }
 
+    /*.social-media-links {*/
+    /*    display: flex;*/
+    /*    justify-content: flex-end;*/
+    /*    align-content: flex-end;*/
+    /*}*/
+
+    i {
+        margin-top: 20px;
+    }
+
+    /*.footer > p {*/
+    /*    display: flex;*/
+    /*    margin-top: 0;*/
+    /*    align-content: center;*/
+    /*    align-items: center;*/
+    /*}*/
 
 }
 
