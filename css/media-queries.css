@@ -22,7 +22,7 @@
 
 body {
     display: flex;
-    margin: 1em;
+    margin: 1em auto;
     width: 339px;
     flex-direction: column;
 }
@@ -91,7 +91,7 @@ i {
     color: blue;
 }
 
-@media screen and (min-width: 860px) and (max-width: 1500px) {
+@media screen and (min-width: 860px) and (max-width: 2500px) {
     .hidden-on-desktop {
         visibility: hidden;
     }
