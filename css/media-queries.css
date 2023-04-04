@@ -107,13 +107,10 @@ section {
 
     h1 {
         display: flex;
-        jusfify-content: flex-start;
         align-items: flex-start;
-        font-size: 60px;
-        width: 10%;
+        font-size: 65px;
         margin: 0;
-        padding: 0;
-        height: 2px;
+        height: 3px;
 
     }
 
