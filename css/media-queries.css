@@ -151,7 +151,7 @@ section {
 
         width: 890px;
         height: 385px;
-        /*padding: 2em;*/
+        margin-bottom: 2em;
 
     }
 
@@ -159,37 +159,36 @@ section {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        margin-right: 25%;
         padding: 0;
         margin-bottom: 5em;
-        border-bottom: 0;
+        /*border-bottom: 0;*/
         height: 25px;
 
 
     }
 
+    h2{
+        /*margin-bottom: 1em;*/
+    }
+
 
     #main {
-        display: flex;
-        justify-content: flex-start;
-        padding: 0;
-
 
 
     }
 
     .main {
+        display: flex;
+        justify-content: flex-start;
         list-style-type: none;
-        padding: 0;
+        margin-right: 25%;
     }
 
     .sub-section {
         display: flex;
-        /*flex-direction: column;*/
         align-items: flex-start;
         justify-content: center;
-        width: 30%;
-        padding: 0;
+        width: 25%;
         margin-left: 75%;
         font-style: italic;
         /*margin-bottom: 5em;*/
