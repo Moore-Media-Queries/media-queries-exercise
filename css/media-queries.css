@@ -83,6 +83,14 @@ i {
     margin-top: 20px;
 }
 
+#social-media-links > a {
+    color: black;
+}
+
+#social-media-links > a:hover {
+    color: blue;
+}
+
 @media screen and (min-width: 860px) and (max-width: 1500px) {
     .hidden-on-desktop {
         visibility: hidden;
